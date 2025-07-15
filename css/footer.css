@@ -1,0 +1,71 @@
+/*Footer CSS*/
+.footer-dark {
+  background-color: #0e0e0e;
+  color: #bbb;
+  padding: 60px 0 30px;
+}
+
+.footer-dark h5 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-dark a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-dark a:hover {
+  color: #ffc800;
+}
+
+.footer-dark .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffc800;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.footer-dark .social-icons a {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #bbb;
+  transition: color 0.3s;
+}
+
+.footer-dark .social-icons a:hover {
+  color: #ffc800;
+}
+
+.footer-dark .footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Tablet (min-width: 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .footer-dark .align-right-lg {
+    text-align: center;
+    /* Tablet: rata tengah */
+  }
+}
+
+/* Desktop (min-width: 992px) */
+@media (min-width: 992px) {
+  .footer-dark .align-right-lg {
+    text-align: right;
+    /* Desktop: rata kanan */
+  }
+}
+
+/* Responsive Align */
+@media (min-width: 992px) {
+  .footer-dark .align-right-lg {
+    text-align: right;
+  }
+}
