@@ -1,0 +1,194 @@
+.masthead-product {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* penuh layar di desktop */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/img/background/product-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.6); /* gelapin biar teks jelas */
+  z-index: -1;
+}
+
+
+/* === RESPONSIVE SECTION === */
+
+/* Tablet (lebar ≤ 992px) */
+@media (max-width: 992px) {
+  .masthead-product {
+    height: 80vh; /* gak terlalu tinggi */
+  }
+
+  .masthead-heading {
+    font-size: 3rem;
+  }
+
+  .masthead-subheading {
+    font-size: 1.25rem;
+  }
+}
+
+/* HP (lebar ≤ 576px) */
+@media (max-width: 576px) {
+  .masthead-product {
+    height: 50vh; /* tinggi lebih kecil biar pas di layar HP */
+  }
+
+  .masthead-heading {
+    font-size: 2rem;
+  }
+
+  .masthead-subheading {
+    font-size: 1rem;
+  }
+
+  .bg-image {
+    background-position: center top; /* biar fokus ke bagian atas gambar */
+  }
+}
+
+/* ================= PRODUCT SECTION ================= */
+#product .content {
+  display: flex;
+  align-items: flex-start; /* sejajarin gambar sama H1 */
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 5rem 0; /* ✅ jarak antar item dibesarkan */
+  flex-wrap: nowrap;
+}
+
+/* ================= TEXT SECTION ================= */
+#product .text-section {
+  flex: 1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 30px 0 20px;
+}
+
+#product .text-section h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111;
+  text-align: center; /* rata tengah */
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+#product .text-section h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444;
+  text-align: center; /* rata tengah */
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#product .text-section h5 {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.4rem;
+}
+
+#product .text-section ul {
+  margin: 0 0 0.5rem 1.5rem; /* jarak antar bullet lebih rapat */
+  padding: 0;
+  list-style-type: disc;
+}
+
+#product .text-section p {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.6; /* ✅ spasi antar baris dirapatin */
+  color: #333;
+}
+
+/* ================= IMAGE SECTION ================= */
+#product .image-section {
+  flex: 1;
+  display: flex;
+  align-items: flex-start; /* sejajarin ke atas (H1) */
+  justify-content: center;
+}
+
+#product .image-section img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ================= ZIG-ZAG EFFECT ================= */
+#product .content:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+  #product .content {
+    flex-direction: column;
+    text-align: left;
+    margin: 4rem 0; /* ✅ jarak antar item tetap lega di tablet */
+    align-items: center; /* biar konten center di tablet */
+  }
+
+  #product .content:nth-of-type(even) {
+    flex-direction: column;
+  }
+
+  #product .image-section {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center; /* gambar ke tengah */
+    align-items: center;
+    width: 100%;
+  }
+
+  #product .image-section img {
+    max-width: 80%; /* biar ga terlalu lebar di hp */
+    height: auto;
+  }
+
+  #product .text-section {
+    padding: 0 1rem;
+    align-items: center; /* teks di tengah */
+    text-align: center;
+  }
+
+  #product .text-section h1,
+  #product .text-section h3 {
+    text-align: center;
+  }
+
+  #product .text-section p {
+    text-align: justify;
+    line-height: 1.5; /* tetap rapat di mobile */
+  }
+
+  #product .text-section h5,
+  #product .text-section ul {
+    text-align: left !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
+
