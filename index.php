@@ -1,9 +1,4 @@
-
-
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 // AUTO DETECT config
 if (file_exists("config-local.php")) {
     include "config-local.php"; // dipake waktu di laptop
