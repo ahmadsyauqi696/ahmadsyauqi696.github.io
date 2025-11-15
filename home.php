@@ -1,4 +1,12 @@
-<?php include 'config.php'; ?>
+<?php
+// AUTO DETECT config
+if (file_exists("config-local.php")) {
+    include "config-local.php"; // dipake waktu di laptop
+} else {
+    include "config.php"; // dipake waktu di hosting
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
