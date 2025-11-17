@@ -45,7 +45,7 @@ $news = $result->fetch_assoc();
     </div>
 
     <div class="text-center mt-4">
-      <a href="news.php" class="btn btn-secondary btn-back">Back</a>
+      <a href="/news" class="btn btn-secondary btn-back">Back</a>
     </div>
 
   </div>

@@ -34,7 +34,7 @@ include 'navbar-news.php';
                 <?= substr(strip_tags($row['content']), 0, 100) ?>...
               </p>
 
-              <a href="more-news.php?id=<?= $row['id'] ?>" class="btn btn-primary">
+              <a href="more-/news?id=<?= $row['id'] ?>" class="btn btn-primary">
                 Read More
               </a>
             </div>

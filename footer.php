@@ -107,10 +107,10 @@
             <div class="col-md-4 mb-4 text-center">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="product">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/product">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/news">News</a></li>
                 </ul>
             </div>
 
