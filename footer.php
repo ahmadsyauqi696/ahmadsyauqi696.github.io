@@ -107,10 +107,10 @@
             <div class="col-md-4 mb-4 text-center">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="product.php">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="news.php">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="product">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news">News</a></li>
                 </ul>
             </div>
 
@@ -127,7 +127,7 @@
         <!-- Copyright -->
         <div class="footer-bottom mt-4">
             &copy; <span id="displayYear"></span> Seavida. All rights reserved. Powered by
-            <a href="home.php" target="_blank">Seavida</a>
+            <a href="https://seavida.id/" target="_blank">Seavida</a>
         </div>
     </div>
 </footer>

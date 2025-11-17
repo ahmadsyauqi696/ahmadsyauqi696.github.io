@@ -50,7 +50,7 @@ if (file_exists("config-local.php")) {
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="#home"><img src="assets/img/logo-seavida-new.png" alt="..." /> Seavida</a>
+      <a class="navbar-brand" href="home"><img src="assets/img/logo-seavida-new.png" alt="..." /> Seavida</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -58,10 +58,10 @@ if (file_exists("config-local.php")) {
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-          <li class="nav-item"><a class="nav-link" href="home.php">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="product.php">Products</a></li>
-          <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
-          <li class="nav-item"><a class="nav-link" href="news.php">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="product">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="news">News</a></li>
         </ul>
       </div>
     </div>
