@@ -14,7 +14,7 @@
                         Utara, DKI Jakarta, INDONESIA</p>
                     <p><i class="fab fa-whatsapp"></i> +6281929481169</p>
                     <p><i class="fas fa-phone"></i> +6281929481169</p>
-                    <p><i class="fas fa-envelope"></i> seavida_official@seavida.id</p>
+                    <p><i class="fas fa-envelope"></i> seavida_@seavida.id</p>
                     <div class="social-icons mt-4">
                         <style>
                             .social-icons a {
