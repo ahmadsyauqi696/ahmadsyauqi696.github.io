@@ -99,7 +99,7 @@
                 <div class="social-icons mt-3">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://instagram.com/sea_vida"><i class="fab fa-instagram"></i></a>
-                    <a href="mailto:seavida@seavida.id"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:seavida_official@seavida.id"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
 
