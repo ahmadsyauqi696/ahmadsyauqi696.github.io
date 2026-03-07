@@ -245,7 +245,7 @@ if (file_exists("config-local.php")) {
                             Utara, DKI Jakarta, INDONESIA</p>
                         <p><i class="fab fa-whatsapp"></i> +6281929481169</p>
                         <p><i class="fas fa-phone"></i> +6281929481169</p>
-                        <p><i class="fas fa-envelope"></i> sea.vida6@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i> seavida_official@seavida.id</p>
                         <div class="social-icons mt-4">
                             <style>
                                 .social-icons a {
@@ -331,7 +331,7 @@ if (file_exists("config-local.php")) {
                     <div class="social-icons mt-3">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://instagram.com/sea_vida"><i class="fab fa-instagram"></i></a>
-                        <a href="mailto:sea.vida6@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="mailto:seavida_official@seavida.id"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
 
@@ -472,7 +472,7 @@ if (file_exists("config-local.php")) {
         <a href="https://instagram.com/sea_vida" class="social-icon" target="_blank">
             <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://mail.google.com/mail/?view=cm&fc=1&to=sea.vida6@gmail.com" class="social-icon" target="_blank">
+        <a href="https://mail.google.com/mail/?view=cm&fc=1&to=seavida_official@seavida.id" class="social-icon" target="_blank">
             <i class="fas fa-envelope"></i>
         </a>
         <a href="https://wa.me/6281929481169" class="social-icon" target="_blank">

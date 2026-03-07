@@ -14,7 +14,7 @@
                         Utara, DKI Jakarta, INDONESIA</p>
                     <p><i class="fab fa-whatsapp"></i> +6281929481169</p>
                     <p><i class="fas fa-phone"></i> +6281929481169</p>
-                    <p><i class="fas fa-envelope"></i> sea.vida6@gmail.com</p>
+                    <p><i class="fas fa-envelope"></i> seavida_official@seavida.id</p>
                     <div class="social-icons mt-4">
                         <style>
                             .social-icons a {
@@ -99,7 +99,7 @@
                 <div class="social-icons mt-3">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://instagram.com/sea_vida"><i class="fab fa-instagram"></i></a>
-                    <a href="mailto:sea.vida6@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="mailto:seavida_official@seavida.id"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
 
