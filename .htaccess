@@ -1,22 +1,9 @@
 RewriteEngine On
 RewriteBase /seavida/
 
-# ============================
-# 1. Redirect URL tanpa .php
-# ============================
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php [L]
-
-# ============================
-# 2. Set index.php sebagai halaman utama
-# ============================
+# Homepage
 RewriteRule ^$ index.php [L]
 
-# ============================
-# 3. Routing khusus (opsional)
-# ============================
-# contoh: /products → product.php
-RewriteRule ^products$ product.php [L]
-RewriteRule ^gallery$ gallery.php [L]
-RewriteRule ^news$ news.php [L]
-RewriteRule ^home$ home.php [L]
+# Redirect URL tanpa .php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]

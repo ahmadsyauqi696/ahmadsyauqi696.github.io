@@ -50,10 +50,21 @@ if (file_exists("config-local.php")) {
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/product">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/news">News</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="product">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="news">News</a>
+                    </li>
                 </ul>
             </div>
         </div>
