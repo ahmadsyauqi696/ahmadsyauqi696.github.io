@@ -92,7 +92,7 @@ if (file_exists("config-local.php")) {
                 <p>Sargassum is rich in Alginate, a natural polysaccharide used in food thickening, textile printing, fertilizers, and pharmaceuticals. It’s also valued as a source of organic nutrients for agriculture, improving soil health and plant growth. Our Sargassum is harvested responsibly to ensure sustainability and consistent alginate content for industrial use</p>
             </div>
             <div class="image-section">
-                <img src="assets/img/product/SARGASSUM.jpg" alt="Seaweed drying on a stick">
+                <img src="assets/img/product/sargassum.jpg" alt="Seaweed drying on a stick">
             </div>
         </div>
 
